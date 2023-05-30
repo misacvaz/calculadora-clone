@@ -7,7 +7,7 @@
 Calculadora desenvolvida como exemplo do Curso Completo de JavaScript na Udemy.com.
 
 ### Projeto
-![cleck aque Calculadora](https://misacvaz.github.io/calculadora-clone/)
+[cleck aque para visualizar a Calculadora](https://misacvaz.github.io/calculadora-clone/)
 
 ### Utilidade 
 
@@ -24,6 +24,6 @@ Calculadora desenvolvida como exemplo do Curso Completo de JavaScript na Udemy.c
 - HTML;
 - JAVASCRIPT;
 
-
-Mizael Vaz
+### CONTACT
+Mizael Vaz : misacvaz@gmail.com
 
