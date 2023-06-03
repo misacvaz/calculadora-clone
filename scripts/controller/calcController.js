@@ -198,7 +198,7 @@ class CalcController {
           result /= 100;
           this._operation = [result];
         } else {
-          this._operation = [result.toFixed(2)];
+          this._operation = [result];
     
           if (last) this._operation.push(last);
         }
@@ -228,7 +228,9 @@ class CalcController {
         // Atualiza o display com o último número da operação
         let lastNumber = this.getLastItem(false);
         if (!lastNumber) lastNumber = 0;
-        this.displayCalc = lastNumber;
+       
+        this.displayCalc = lastNumber.toString();
+        
       }
 
 
