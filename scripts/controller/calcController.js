@@ -226,10 +226,11 @@ class CalcController {
 
       setLastNumberToDisplay() {
         // Atualiza o display com o último número da operação
-        let lastNumber = this.getLastItem(false);
-        if (!lastNumber) lastNumber = 0;
        
-        this.displayCalc = lastNumber.toString();
+          let lastNumber = this.getLastItem(false);
+          if (!lastNumber) lastNumber = 0;
+          this.displayCalc = lastNumber.toString();
+     
         
       }
 
