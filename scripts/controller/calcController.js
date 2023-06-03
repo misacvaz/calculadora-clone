@@ -165,7 +165,8 @@ class CalcController {
       getResult() {
         // Obtém o resultado da operação
         try {
-          const result = eval(this._operation.join(""));
+          const operationString = this._operation.join("");
+          const result = Function(`"use strict"; return (${operationString});`)();
           return result;
         } catch (e) {
           setTimeout(() => this.setError(), 1);
@@ -193,11 +194,16 @@ class CalcController {
     
         let result = this.getResult();
     
-        if (last == '%') {
+        if (last === '%') {
           // Caso o último item seja o operador de porcentagem, divide o resultado por 100
           result /= 100;
           this._operation = [result];
         } else {
+
+          if (this._lastOperator === "/") {
+            result = parseFloat(result.toFixed(2));
+          }
+
           this._operation = [result];
     
           if (last) this._operation.push(last);
