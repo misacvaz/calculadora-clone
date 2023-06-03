@@ -1,13 +1,13 @@
 # Calculadora JavaScript
 
-[![Hcode Treinamentos](preview.png)](https://www.hcode.com.br)
+[![Hcode Treinamentos calculacora](preview.png)](https://misacvaz.github.io/calculadora-clone/)
 
 [Hcode Treinamentos](https://www.hcode.com.br)
 
 Calculadora desenvolvida como exemplo do Curso Completo de JavaScript na Udemy.com.
 
 ### Projeto
-![Calculadora]()
+[cleck aque para visualizar a Calculadora](https://misacvaz.github.io/calculadora-clone/)
 
 ### Utilidade 
 
@@ -24,6 +24,6 @@ Calculadora desenvolvida como exemplo do Curso Completo de JavaScript na Udemy.c
 - HTML;
 - JAVASCRIPT;
 
-
-Mizael Vaz
+### CONTACT
+Mizael Vaz : misacvaz@gmail.com
 
